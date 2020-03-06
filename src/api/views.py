@@ -8,7 +8,7 @@ from rest_framework.settings import APISettings
 from rest_framework.filters import SearchFilter
 from rest_framework.pagination import PageNumberPagination
 
-class Test(APIView):
+class Book(APIView):
      def get(self, request, *args, **kwargs):
          return Response('get drf rest ok')
      def post(self, request, *args, **kwargs):
